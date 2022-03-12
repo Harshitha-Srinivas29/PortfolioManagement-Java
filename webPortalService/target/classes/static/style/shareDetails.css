@@ -1,0 +1,25 @@
+body {
+    background-image: url("daily_share1.jpg");
+    background-color:black;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+  /*background-size: auto; */
+  background-size:cover;
+
+   }
+body background-image{
+    opacity: 0.2;
+}
+
+table, th, td {
+  border: 1px solid white;
+  border-collapse: collapse;
+  background: rgba(255,255,255,0.5);
+  color: white;
+  font-weight: bold;
+}
+
+h2{
+	text-align: center;
+	color: white;
+}

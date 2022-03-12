@@ -1,0 +1,30 @@
+@charset "ISO-8859-1";
+
+body {
+    background-image: url("img1.jpg");
+    background-color:black;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+  /*background-size: auto; */
+  background-size:cover;
+
+   }
+body background-image{
+    opacity: 0.2;
+}
+
+table, th, td {
+  border: 2px solid black;
+  border-width: medium;
+  border-color: black;
+  border-collapse: collapse;
+  background: rgba(255,255,255,0.5);
+  font-weight: bold;
+}
+
+h2{
+	text-align: center;
+	color: black;
+	font-weight: bold;
+	padding-top: 55px;
+}

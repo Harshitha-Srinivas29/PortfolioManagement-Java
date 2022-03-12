@@ -1,0 +1,64 @@
+@charset "ISO-8859-1";
+/* Split the screen in half */
+.split {
+  height: 100%;
+  /*width: 50%;*/
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+/* Control the left side */
+.left {
+  left: 0;
+  width: 40%;
+  background-color: #111;
+}
+
+/* Control the right side */
+.right {
+  right: 0;
+   width: 60%;
+   background-image: url('login.jpg');
+ /* background-image: url(https://imageio.forbes.com/specials-images/imageserve/608b4bbba43cfa314e532183/Investment-management--Portfolio-diversification-/960x0.jpg?fit=bounds&format=jpg&width=960);*/
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-size:cover;
+  background-color: white;
+}
+
+/* If you want the content centered horizontally and vertically */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/* Style the image inside the centered container, if needed */
+.centered img {
+  width: 150px;
+  border-radius: 50%;
+}
+
+
+.btn-black {
+	background-color: #000 !important;
+	color: #fff;
+	}
+
+label{
+	font-weight: bold;
+	font-family: 'Noto Sans', sans-serif;
+	color: black;
+	display: block;
+    width: 150px;
+}
+
+h1,h5{
+	color: white;
+	font-family: 'Source Sans Pro', sans-serif;
+}
